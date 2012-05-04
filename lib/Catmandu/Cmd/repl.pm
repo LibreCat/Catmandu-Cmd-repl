@@ -45,10 +45,6 @@ PERL
 
 1;
 
-=head1 NAME
-
-Catmandu::Cmd::repl - interactive shell
-
 =head1 AUTHOR
 
 Nicolas Steenlant, C<< <nicolas.steenlant at ugent.be> >>
