@@ -12,6 +12,4 @@ BEGIN {
 
 require_ok $pkg;
 
-diag "$pkg $Catmandu::Cmd::repl::VERSION, Perl $], $^X";
-
 done_testing 2;
