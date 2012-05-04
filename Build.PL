@@ -19,10 +19,6 @@ my $builder = Module::Build->new(
         'Catmandu' => '0.1',
         'Devel::REPL' => '1.003012',
     },
-    add_to_cleanup => [
-        'Catmandu-Cmd-repl-*'
-    ],
-    create_makefile_pl => 'traditional',
     create_license => 1,
 );
 
