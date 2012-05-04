@@ -43,8 +43,6 @@ PERL
     $repl->run;
 }
 
-1;
-
 =head1 AUTHOR
 
 Nicolas Steenlant, C<< <nicolas.steenlant at ugent.be> >>
