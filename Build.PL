@@ -16,9 +16,13 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl' => '5.10.0',
-        'Catmandu' => '0.1',
+        'Catmandu' => '0.01',
         'Devel::REPL' => '1.003012',
     },
+    add_to_cleanup => [qw(
+        Catmandu-Cmd-repl-*
+    )],
+    create_makefile_pl => 'traditional',
     create_license => 1,
 );
 
