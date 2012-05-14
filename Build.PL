@@ -15,7 +15,7 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'perl' => '5.10.0',
+        'perl' => '5.10.1',
         'Catmandu' => '0.01',
         'Devel::REPL' => '1.003012',
     },
